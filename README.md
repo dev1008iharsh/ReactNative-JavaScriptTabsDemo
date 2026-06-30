@@ -1,50 +1,96 @@
-# Welcome to your Expo app 👋
+# ReactNative-JavaScriptTabs
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native project showcasing JavaScript Bottom Tab Navigation with Expo Router. It demonstrates file-based routing, tab navigation, screen customization, and navigation patterns using Expo SDK 54. Expo Router's JavaScript tabs are built on top of React Navigation's bottom tabs. [oai_citation:0‡Expo Documentation](https://docs.expo.dev/router/advanced/tabs/?utm_source=chatgpt.com)
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+- JavaScript Bottom Tabs
+- File-Based Routing
+- Home Screen
+- Profile Screen
+- Settings Screen
+- FontAwesome Tab Icons
+- Custom Header
+- Active & Inactive Tab Colors
+- Tab Badge
+- Screen Navigation
+- Tab Bar Customization
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠 Tech Stack
 
-In the output, you'll find options to open the app in a
+- Expo SDK 54.0.34
+- Expo Router 6.0.23
+- React Native 0.81.5
+- React 19.1.0
+- TypeScript 5.9.2
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📂 Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+app
+├── _layout.tsx
+└── (tabs)
+    ├── _layout.tsx
+    ├── index.tsx
+    ├── profile.tsx
+    └── settings.tsx
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### Clone the repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone <repository-url>
+```
 
-## Join the community
+### Navigate to the project
 
-Join our community of developers creating universal apps.
+```bash
+cd ReactNative-JavaScriptTabs
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npx expo start
+```
+
+---
+
+## 📦 Versions
+
+| Package      | Version |
+| ------------ | ------- |
+| Expo SDK     | 54.0.34 |
+| Expo Router  | 6.0.23  |
+| React Native | 0.81.5  |
+| React        | 19.1.0  |
+| TypeScript   | 5.9.2   |
+
+---
+
+## 📚 References
+
+- Expo Router – JavaScript Tabs
+- React Navigation – Bottom Tabs
+
+---
+
+## 📄 License
+
+This project is intended for educational and reference purposes.

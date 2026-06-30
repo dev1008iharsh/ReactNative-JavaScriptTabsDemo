@@ -3,36 +3,34 @@ import { Link } from "expo-router";
 import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
-// Home Screen
-export default function HomeScreen() {
+// Settings Screen
+export default function SettingsScreen() {
   return (
     <View style={styles.container}>
-      {/* Screen Icon */}
-      <FontAwesome name="home" size={80} color="#2563EB" />
+      {/* Settings Icon */}
+      <FontAwesome name="cog" size={80} color="#DC2626" />
 
       {/* Title */}
-      <Text style={styles.title}>Home Screen</Text>
+      <Text style={styles.title}>Settings Screen</Text>
 
       {/* Subtitle */}
-      <Text style={styles.subtitle}>JavaScript Tabs Demo</Text>
+      <Text style={styles.subtitle}>Configure your application settings</Text>
 
-      {/* Information Card */}
+      {/* Settings Card */}
       <View style={styles.card}>
-        <Text style={styles.cardTitle}>Learning Topics</Text>
+        <Text style={styles.option}>🔔 Notifications</Text>
 
-        <Text style={styles.cardText}>• Expo Router Tabs</Text>
+        <Text style={styles.option}>🌙 Dark Mode</Text>
 
-        <Text style={styles.cardText}>• Bottom Tab Navigation</Text>
+        <Text style={styles.option}>🔒 Privacy</Text>
 
-        <Text style={styles.cardText}>• Header Customization</Text>
-
-        <Text style={styles.cardText}>• Tab Bar Icons</Text>
+        <Text style={styles.option}>🌐 Language</Text>
       </View>
 
-      {/* Navigate Button */}
-      <Link href="/profile" asChild>
+      {/* Navigate Back */}
+      <Link href="/" asChild>
         <Pressable style={styles.button}>
-          <Text style={styles.buttonText}>Go To Profile</Text>
+          <Text style={styles.buttonText}>Back To Home</Text>
         </Pressable>
       </Link>
     </View>
@@ -42,7 +40,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#EEF6FF",
+    backgroundColor: "#FEE2E2",
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
@@ -58,6 +56,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
     fontSize: 18,
     color: "#666",
+    textAlign: "center",
   },
 
   card: {
@@ -69,27 +68,21 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
 
-  cardTitle: {
-    fontSize: 20,
-    fontWeight: "bold",
-    marginBottom: 15,
-  },
-
-  cardText: {
-    fontSize: 16,
-    marginBottom: 8,
+  option: {
+    fontSize: 18,
+    marginVertical: 10,
   },
 
   button: {
     marginTop: 30,
-    backgroundColor: "#2563EB",
+    backgroundColor: "#DC2626",
     paddingHorizontal: 35,
     paddingVertical: 14,
     borderRadius: 10,
   },
 
   buttonText: {
-    color: "#FFF",
+    color: "#FFFFFF",
     fontSize: 16,
     fontWeight: "600",
   },
