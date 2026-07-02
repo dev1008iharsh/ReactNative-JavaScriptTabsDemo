@@ -1,5 +1,5 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
-import { Link } from "expo-router";
+import { Link, router } from "expo-router";
 import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
@@ -33,6 +33,12 @@ export default function SettingsScreen() {
           <Text style={styles.buttonText}>Back To Home</Text>
         </Pressable>
       </Link>
+      <Pressable
+        style={styles.button}
+        onPress={() => router.replace("/(auth)")}
+      >
+        <Text style={styles.buttonText}>Logout</Text>
+      </Pressable>
     </View>
   );
 }

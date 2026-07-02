@@ -1,15 +1,12 @@
-import { Stack } from "expo-router";
+import { useEffect } from "react";
 
-// Root Layout
-export default function RootLayout() {
-  return (
-    <Stack>
-      <Stack.Screen
-        name="(tabs)"
-        options={{
-          headerShown: false,
-        }}
-      />
-    </Stack>
-  );
+import { router } from "expo-router";
+
+export default function AppStart() {
+  useEffect(() => {
+    console.log("AppStart: Redirecting to Login Screen");
+    router.replace("/(auth)");
+  }, []);
+
+  return null;
 }
