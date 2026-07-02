@@ -1,6 +1,6 @@
 # ReactNative-JavaScriptTabs
 
-A React Native project showcasing JavaScript Bottom Tab Navigation with Expo Router. It demonstrates file-based routing, tab navigation, screen customization, and navigation patterns using Expo SDK 54. Expo Router's JavaScript tabs are built on top of React Navigation's bottom tabs. [oai_citation:0‡Expo Documentation](https://docs.expo.dev/router/advanced/tabs/?utm_source=chatgpt.com)
+A React Native project showcasing JavaScript Bottom Tab Navigation with Expo Router. It demonstrates file-based routing, tab navigation, screen customization, and navigation patterns using Expo SDK 54. Expo Router's JavaScript tabs are built on top of React Navigation's bottom tabs.
 
 ---
 <img width="1500" height="809" alt="Screenshot2026-07-02at7 55 28P" src="https://github.com/user-attachments/assets/0d39b0b3-3083-4dd0-90ea-71fc3da10e4f" />
@@ -28,48 +28,6 @@ A React Native project showcasing JavaScript Bottom Tab Navigation with Expo Rou
 - React Native 0.81.5
 - React 19.1.0
 - TypeScript 5.9.2
-
----
-
-## 📂 Project Structure
-
-```text
-app
-├── _layout.tsx
-└── (tabs)
-    ├── _layout.tsx
-    ├── index.tsx
-    ├── profile.tsx
-    └── settings.tsx
-```
-
----
-
-## 🚀 Getting Started
-
-### Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-### Navigate to the project
-
-```bash
-cd ReactNative-JavaScriptTabs
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start the development server
-
-```bash
-npx expo start
-```
 
 ---
 
