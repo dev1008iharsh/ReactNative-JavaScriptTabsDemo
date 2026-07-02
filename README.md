@@ -3,6 +3,7 @@
 A React Native project showcasing JavaScript Bottom Tab Navigation with Expo Router. It demonstrates file-based routing, tab navigation, screen customization, and navigation patterns using Expo SDK 54. Expo Router's JavaScript tabs are built on top of React Navigation's bottom tabs. [oai_citation:0‡Expo Documentation](https://docs.expo.dev/router/advanced/tabs/?utm_source=chatgpt.com)
 
 ---
+<img width="1500" height="809" alt="Screenshot2026-07-02at7 55 28P" src="https://github.com/user-attachments/assets/0d39b0b3-3083-4dd0-90ea-71fc3da10e4f" />
 
 ## 📱 Features
 
